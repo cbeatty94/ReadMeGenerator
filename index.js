@@ -57,4 +57,7 @@ inquirer.prompt([
         name: 'email'
     }
 
-])
+]).then(answers => {
+    const { title, description, installation, usageInfo, contribution, testInstructions, license, githubUser, email } = answers;
+    
+
