@@ -45,6 +45,16 @@ inquirer.prompt([
             'Apache [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
             'Perl [![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)'
         ]
+    },
+    {
+        type: 'input',
+        message: 'Enter your GitHub username: ',
+        name: 'githubUser'
+    },
+    {
+        type: 'input',
+        message: 'Enter your email address: ',
+        name: 'email'
     }
 
 ])
