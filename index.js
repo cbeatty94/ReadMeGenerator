@@ -17,22 +17,22 @@ inquirer.prompt([
     },
     {
         type: 'input',
-        message: 'Installation Instructions Here',
+        message: 'Installation Instructions Here: ',
         name: 'installation'
     },
     {
         type: 'input',
-        message: 'Usage Information Here',
+        message: 'Usage Information Here: ',
         name: 'usageInfo'
     },
     {
         type: 'input',
-        message: 'Contribution Guidelines',
+        message: 'Contribution Guidelines: ',
         name: 'contribution'
     },
     {
         type: 'input',
-        message: 'Test Instructions Here',
+        message: 'Test Instructions Here: ',
         name: 'testInstructions'
     },
     {
