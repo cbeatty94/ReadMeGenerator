@@ -13,35 +13,37 @@ inquirer.prompt([
     {
         type: 'input',
         message: 'Describe your project!',
-        name: description
+        name: 'description'
     },
     {
         type: 'input',
         message: 'Installation Instructions Here',
-        name: installation
+        name: 'installation'
     },
     {
         type: 'input',
         message: 'Usage Information Here',
-        name: usageInfo
+        name: 'usageInfo'
     },
     {
         type: 'input',
         message: 'Contribution Guidelines',
-        name: contribution
+        name: 'contribution'
     },
     {
         type: 'input',
         message: 'Test Instructions Here',
-        name: testInstructions
+        name: 'testInstructions'
     },
     {
         type: 'checkbox',
         message: 'Select License',
-        name: license,
+        name: 'license',
         choices: [
-            'MIT[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
-            
+            'MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
+            'Mozilla [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)',
+            'Apache [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
+            'Perl [![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)'
         ]
     }
 
