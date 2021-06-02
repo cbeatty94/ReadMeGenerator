@@ -36,7 +36,7 @@ ${data.testInstructions}
 
 ## License
 
-${data.license}
+This project is covered under the following license: ${data.license}
 
 ## Questions
 
