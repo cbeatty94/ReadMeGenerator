@@ -40,7 +40,7 @@ This project is covered under the following license: ${data.license}
 
 ## Questions
 
-If you have any further questions, feel free to email me at ${data.email} or go to my github page via the following link https://api.github.com/users/${data.githubUser}
+If you have any further questions, feel free to email me at ${data.email} or go to my github page via the following link https://github.com/${data.githubUser}
 
 
     `
