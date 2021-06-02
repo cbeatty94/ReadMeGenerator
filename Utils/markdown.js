@@ -8,7 +8,7 @@ ${data.license}
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Contributors](#Contributors)
+- [Contribution Guidelines](#Contribution)
 - [Test](#Test)
 - [License](#License)
 - [Questions](#Questions)
@@ -18,9 +18,30 @@ ${data.license}
 
 ${data.description}
 
-##Installation
+## Installation
 
 ${data.installation}
+
+## Usage
+
+${data.usageInfo}
+
+## Contribution
+
+${data.contribution}
+
+## Test
+
+${data.testInstructions}
+
+## License
+
+${data.license}
+
+## Questions
+
+If you have any further questions, feel free to email me at ${data.email} or go to my github page via the following link https://api.github.com/users/${data.githubUser}
+
 
     `
 }
