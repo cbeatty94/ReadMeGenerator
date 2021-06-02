@@ -61,7 +61,7 @@ inquirer.prompt([
 
 
 .then(function(data){
-    fs.writeFile('ReadME.md', generateMarkdown(data), function(err) {
+    fs.writeFile('ExampleReadME.md', generateMarkdown(data), function(err) {
         if (err) {
             throw err;
         };

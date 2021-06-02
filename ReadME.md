@@ -19,11 +19,11 @@ The best project ever!
 
 ## Installation
 
-type npm i into terminal
+use terminal and type npm init
 
 ## Usage
 
-type node index.js and you'll be off to the races
+use node index.js and follow the prompts
 
 ## Contribution
 
