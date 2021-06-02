@@ -1,6 +1,7 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
-const util = require('util')
+const generate = require('./Utils/markdown')
+const generateMarkdown = require('./Utils/markdown')
 
 
 
@@ -60,4 +61,14 @@ inquirer.prompt([
 ])
 
 
+.then(function(data){
+    fs.writeFile('ReadME.md', generateMarkdown(data), function(err) {
+        if (err) {
+            throw err;
+        };
 
+        console.log('New ReadMe file being generated!');
+    })
+});
+
+    
